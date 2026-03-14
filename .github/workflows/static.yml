@@ -1,4 +1,4 @@
-# Workflow for building and deploying a Vite project to GitHub Pages
+# Simple workflow for deploying static content to GitHub Pages
 name: Deploy Vite site to Pages
 
 on:
