@@ -32,12 +32,12 @@ const HeroSection = () => {
                 {/* BRANDING OVERLAY */}
                 <div className="hero-logo-overlay">
                     <div className="metallic-logo-wrapper">
-                        <img src="/logo-original.png" className="logo-base" alt="Cognidatum Metallic Logo" />
-                        <div className="logo-shine-layer"></div>
+                        <img src={`${import.meta.env.BASE_URL}logo-original.png`} className="logo-base" alt="Cognidatum Metallic Logo" />
+                        <div className="logo-shine-layer" style={{ '--logo-url': `url(${import.meta.env.BASE_URL}logo-original.png)` }}></div>
                     </div>
                 </div>
 
-                <img src="/consultant-hero.png" alt="Consultor profesional analizando procesos operativos" />
+                <img src={`${import.meta.env.BASE_URL}consultant-hero.png`} alt="Consultor profesional analizando procesos operativos" />
             </div>
         </section>
     );

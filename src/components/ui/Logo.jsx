@@ -12,7 +12,7 @@ const Logo = ({ className = '', height = 40, ...props }) => {
             {...props}
         >
             <img
-                src="/logo-original.png"
+                src={`${import.meta.env.BASE_URL}logo-original.png`}
                 alt="Cognidatum Logo"
                 style={{
                     height: `${height}px`,
